@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./wdt.css" />
+    <title>Web Development Training</title>
+  </head>
+  <body class="container">
+    <div id="Icon"><img src="/assets/wdt logo.jpg" alt="wdt logo" /></div>
+    <div id="Main-tag">For Individuals</div>
+    <div id="D-body">
+      Start benefiting from the wellness experience. For companies looking on
+      increasing productivity, and improving organization wellness.
+    </div>
+    <div id="form">
+      <form action="#" method="post">
+        <p class="pull-left">
+          <label for="first-name"
+            >First Name <br />
+            <input
+              type="text"
+              required
+              placeholder="Enter first name"
+              id="first-name"
+              name="first-name"
+              autocomplete="given-name"
+          /></label>
+        </p>
+        <p class="pull-right">
+          <label for="last-name"
+            >Last Name <br />
+            <input
+              type="text"
+              required
+              placeholder="Enter last name"
+              id="last-name"
+              name="last-name"
+              autocomplete="family-name"
+          /></label>
+        </p>
+
+        <p class="pull-left">
+          <label for="gender"
+            >Gender <br />
+            <select name="gender" id="gender">
+              <option value="">Select gender</option>
+              <option value="1">male</option>
+              <option value="2">female</option>
+            </select>
+          </label>
+        </p>
+        <p class="pull-right">
+          <label for="DOB"
+            >Date of Birth <br />
+            <input
+              type="Date"
+              required
+              placeholder="YYYY-MM-DD"
+              id="DOB"
+              name="DOB"
+          /></label>
+        </p>
+        <p class="pull-left">
+          <label for="Weight"
+            >Weight(KG) <br />
+            <input
+              type="number"
+              required
+              placeholder="Enter Weight"
+              id="Weight"
+              name="Weight"
+            />
+          </label>
+        </p>
+        <p class="pull-right">
+          <label for="Height"
+            >Height(CM) <br />
+            <input
+              type="number"
+              required
+              placeholder="Enter Height here."
+              id="Height"
+              name="Height"
+            />
+          </label>
+        </p>
+        <p id="full">
+          <label for="a-l"
+            >Activity Level <br />
+            <select name="a-l" id="a-l">
+              <option value="">Select Activity</option>
+              <option value="1">Vibrant</option>
+              <option value="2">Cool</option>
+              <option value="3">Dull</option>
+            </select>
+          </label>
+        </p>
+        <p>
+          <label for="password"
+            >Password <br />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter password"
+              pattern="(?=.*\d)(?=.*[a-z])(/=.*[A-Z]).{8,}"
+              title="*Must contain at least one number one uppercase and lowercase letter, and at least 8 or more characters"
+              autocomplete="new-password"
+              required
+            />
+          </label>
+        </p>
+        <div>
+          <label for="register">
+            <input type="register" value="Register" />
+          </label>
+        </div>
+        <footer>
+          <p>
+            By clicking Register, you agree to our
+            <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy.</a>
+          </p>
+        </footer>
+      </form>
+    </div>
+  </body>
+</html>
